@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{% block title %}{%endblock%} - PKFS</title>
+
+</head>
+
+<body>
+	<h1>Header 1</h1>
+	<div class="content">
+	{%block content%}
+	{%endblock%}
+	</div>
+
+<br>
+<a href="{{ url_for('about') }}">About</a>
+</body>
+</html>
